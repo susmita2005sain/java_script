@@ -12,4 +12,9 @@
 //math.min(4,5,6,7)  same max
 
 //math.random()   values between 0 and 1
-//
+//to get integer value from the random
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random()*(max-min+1)))  
